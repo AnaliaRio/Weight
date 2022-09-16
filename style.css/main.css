@@ -1,0 +1,29 @@
+body {
+    padding-top: 30px;
+    font-family: Arial;
+    font-size: 25px;
+      min-height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(60deg, lavender, deeppink);
+  
+    text-align: center;
+  }
+  
+  span, .result {
+    font-weight: bold;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 40px;
+    color: cornsilk;
+  }  
+
+  button, input {
+    font-size: 25px;
+  }
