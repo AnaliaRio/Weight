@@ -17,7 +17,7 @@ function getMarsWeight() {
   finalWeight = parseInt(finalWeight);
 
   // Print result
-  document.querySelector(".mars").innerHTML = finalWeight;
+  document.querySelector(".mars").innerHTML = finalWeight + " kg";
 }
 
 // WEIGHT IN JUPITER
@@ -31,5 +31,5 @@ function getJupiterWeight() {
   finalWeight = parseInt(finalWeight);
 
   // Print result
-  document.querySelector(".jupiter").innerHTML = finalWeight;
+  document.querySelector(".jupiter").innerHTML = finalWeight + " kg";
 }
